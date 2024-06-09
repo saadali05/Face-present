@@ -1,0 +1,3 @@
+
+
+i can't able to add to faces consecutively and when i click on add face, i get this error (cv2.error: OpenCV(4.10.0) /io/opencv/modules/highgui/src/window.cpp:973: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'). I would be very thankful if you solve this error. please solve it
