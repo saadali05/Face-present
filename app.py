@@ -63,7 +63,7 @@ def train_model():
     
     try:
         if len(faces) == 0:
-            raise ValueError("No faces found in the database.")
+            raise ValueError("No faces found database.")
         
         knn = KNeighborsClassifier(n_neighbors=5)
         knn.fit(faces, labels)
